@@ -15,8 +15,7 @@ body * {
     height: 400px;
     margin-top: 100px;
     margin-left: calc( (100% - 800px) / 2);
-    box-shadow: 5px 5px dimgray;
-    
+    box-shadow: 10px 10px 30px dimgray;  
 
 }
     .left {
@@ -26,39 +25,35 @@ body * {
         width: 60%;
         text-align: center;
         margin-top: 40px;
-        
-
     }
         h1 {
             display: inline-block;
-            font-size: 100px;
+            font-size: 120px;
             line-height: 120px;
-            width: 60%;
+            width: 80%;
             text-align: center;
            
         }
         .par1 {
             display: inline-block;
+            font-size: 12px;
             width: 60%;
             text-align: left;
-            
-
+            color: darkgray;
+            margin: 30px 0px;
         }
         .par2 {
             display: inline-block;
             width: 60%;
             text-align: left;
-            
+            color: darkgray;
             font-size: 10px;
-            line-height: 30px;
-            letter-spacing: 1px;
-            
-
+            line-height: 30px;   
         }
         i {
             display: inline-block;
             width: 30%;
-            
+            color: red;
             margin-left: 10%;
             margin-bottom: 0;
 
