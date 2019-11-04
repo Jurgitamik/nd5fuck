@@ -15,24 +15,22 @@ body * {
     height: 400px;
     margin-top: 100px;
     margin-left: calc( (100% - 800px) / 2);
-    box-shadow: 10px 10px 30px dimgray;  
-
+    box-shadow: 10px 10px 30px dimgray; 
 }
     .left {
-        /* background-color: chartreuse; */
         display: inline-block;
         float: left;
         width: 60%;
         text-align: center;
         margin-top: 40px;
+        height: 250px; 
     }
         h1 {
             display: inline-block;
             font-size: 120px;
             line-height: 120px;
             width: 80%;
-            text-align: center;
-           
+            text-align: center;   
         }
         .par1 {
             display: inline-block;
@@ -50,28 +48,36 @@ body * {
             font-size: 10px;
             line-height: 30px;   
         }
-        i {
-            display: inline-block;
-            width: 30%;
-            color: red;
-            margin-left: 10%;
-            margin-bottom: 0;
+     
+     .back { 
+         display: inline-block;
+         float: left;
+         width: 60%;
+         color: red;
+         height: 55px;
+     }
 
+        .fa {
+            margin-left: 30px;
+            display: inline-block;
+            float: left;
+            padding: 0px 10px 0px 70px;            
         }
         button {
             display: inline-block;
             float: left;
-            margin-left: 10%;
+            border: none;
             margin-bottom: 0;
             color: red;
+            background-color: white;
         }
-
-    .mom {
-        height: 100%;
+    
+    .right {
+        display: inline-block;
         width: 40%;
-        float: right;
+        height: 100%;
         background-image: url(../img/img.jpg);
         background-repeat: no-repeat;
-        background-position: center;
-        
+        background-position: left;   
     }
+        
